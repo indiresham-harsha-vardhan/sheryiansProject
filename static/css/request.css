@@ -1,0 +1,75 @@
+body{
+    background-image: radial-gradient(black,black);
+    width: 100%;
+    height: 100vh;
+}
+#main_div{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(33, 36, 36);
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    border-radius: 10px;
+}
+#span{
+    position: absolute;
+    left: 90%;
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+#text_div{
+    width: 285px;
+    height: 330px;
+    position: absolute;
+    top: 12%;
+    left: 2.5%;
+}
+#h3_heading{
+    text-align: center;
+    letter-spacing: 1px;
+    color: aliceblue;
+
+}
+#small_heading{
+    position: relative;
+    top: 10px;
+    left: 3%;
+    color: aliceblue;
+}
+.form-group{
+    width: 280px;
+    height: 60px;
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+}
+.inputs{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inputs1{
+    background-color: rgb(20, 19, 18);
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    color: aliceblue;
+}
+#submit_button{
+    position: absolute;
+    display: inline-block;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    padding: 5px;
+}

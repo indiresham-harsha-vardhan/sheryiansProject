@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>courses</title>
+    <link rel="icon" href="{% static 'Sheryians_logo_EzwgcppnD.webp' %}">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    {% block css %}
+    
+    {% endblock css %}
+    {% block js %}
+    
+    {% endblock js %}
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <div id="div1">
+                <img src="{% static 'Sheryians_logo_EzwgcppnD.webp' %}" alt="" id="logo">
+                <a id="logo_anchor" href="{% url 'project:home' %}">Sheryians coding school</a>
+            </div>
+            <ul id="ul">
+                    <li><a href="{% url 'project:home' %}">Home</a> </li>
+                    <li><a href="{% url 'project:course' %}">Course</a></li>
+                    <li><a href="{% url 'project:bootcamp' %}">Bootcamp(Kadr)</a></li>
+                    <li><a href="{% url 'project:request' %}">Request CallBack</a></li>
+                    <button id="signup"><a href="{% url 'project:signin' %}" id="sign_link">  Sign in  </a></button>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    </main>
+    <footer></footer>
+    {% block body %}
+    
+    {% endblock body %}
+</body>
+</html>

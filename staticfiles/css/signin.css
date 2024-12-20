@@ -1,0 +1,200 @@
+body{
+    background-image:radial-gradient(black,black);
+    width: 100%;
+    height: 100vh;
+}
+#main_div{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(24, 27, 27);
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+#heading{
+    color: aliceblue;
+    position: absolute;
+    left: 20px;
+    color: aliceblue;
+}
+.span{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    color: aliceblue;
+    cursor: pointer;
+    border-bottom: 1px solid aquamarine;
+    border-radius: 1px;
+}
+#email_span{
+    left: 70px;
+}
+#number{
+    width: 100%;
+    height: 150px;
+}
+#phone_div{
+    width: 100%;
+    height: 81.5%;
+    position: absolute;
+    top: 75px;
+    display: block;
+}
+#lab{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    color: aliceblue;
+}
+#phone_number{
+    width: 200px;
+    position: absolute;
+    top: 85px;
+    left: 30px;
+    border: none;
+    outline: none;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 10px;
+    border-bottom: 1px solid gainsboro ;
+}
+#phone_number::placeholder{
+    color: gainsboro;
+    padding: 10px;  
+}
+#dash{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+}
+#butt,#buttt{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 20px;
+    left: 80px;
+    border: 10%;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#google,#gogle{
+    position: relative;
+    top: 3px;
+    left: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer; 
+}
+#btn1,#bt1{
+    width: 200px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+#create_div,#creat_div{
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    position: relative;
+    top: 40px;
+    left: 80px;
+    border-radius: 10px;
+
+}
+#create_img,#crate_img{
+    width: 20px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+#btn2,#bt2{
+    cursor: pointer;
+    width: 200px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+#email_div{
+    width: 100%;
+    height: 320px;
+    background-color: black;
+    position: absolute;
+    top: 20%;
+    display: none;
+}
+#email{
+    width: 90%;
+    height: fit-content;
+    position: relative;
+    top: 20px;
+    left: 4%;
+    color: aliceblue;
+}
+#email_input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: gray;
+    height: 30px;
+    border-radius: 5px;
+    border-bottom: 1px solid aliceblue;
+}
+#email_input::placeholder{
+    color: aliceblue;
+}
+#password{
+    width: 90%;
+    height: fit-content;
+    position: relative;
+    top: 30px;
+    left: 4%;
+    color: aliceblue;
+}
+#pass{
+    width: 100%;
+    height: 25px;
+    background-color: gray;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border-bottom: 1px solid aliceblue;
+}
+#pass::placeholder{
+    color: aliceblue;
+}
+#continue{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: aqua;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 15px;
+    top: 43%;
+    left: 80%;
+}
+#dassh{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 80px;
+    left: 4%;
+    color: aliceblue;
+}
+#buttt{
+    position:relative;
+    top: 95px;
+}
+#creat_div{
+    position: relative;
+    top: 110px;
+}

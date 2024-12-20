@@ -1,0 +1,227 @@
+body{
+    height: 670vh;
+}
+#div_1{
+    width: 44%;
+    height: 400px;
+    position: relative;
+    top: 3%;
+    left: 6%;
+    float: left;
+}
+.div_1_h1{
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 40px;
+}
+.chid_divs{
+    width: 150px;
+    height: fit-content;
+    background-color: rgb(89, 89, 94);
+    float: left;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    padding: 7px;
+    top: 2%;
+    border-radius: 5px;
+}
+#dd1{
+    width: 180px;
+}
+#dd{
+    left: 15%;
+}
+#price_div{
+    width: 350px;
+    height: fit-content;
+    position: relative;
+    top: 40px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    font-size: 25px;
+    color: aliceblue;
+}
+#div_1_4{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(27, 216, 169);
+    position: relative;
+    top: 80px;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+#div_2{
+    width: 45%;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 14.3%;
+}
+#div_3{
+    width: 90%;
+    height: 200px;
+    position: absolute;
+    top: 100%;
+    left:6% ;
+    font-size: 80px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#div_3_span,#div_5_span{
+    color: rgb(27, 216, 169);
+}
+#div_4{
+    width: 90%;
+    height: 250px;
+    position: absolute;
+    top: 150%;
+    left: 6%;
+}
+.div_4_childs{
+    width: fit-content;
+    height: fit-content;
+    float: left;
+    border-radius: 10px;
+    background-color: gray;
+    font-size: 40px;
+    padding: 5px;
+    color: aliceblue;
+    position: relative;
+    top: 2px;
+    left: 20px;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+#div_5{
+    width: 90%;
+    height: 615px;
+    color: aliceblue;
+    position: absolute;
+    top: 200%;
+    left: 6%;
+    font-size: 190px;
+}
+#div_5_h6{
+    font-size: 30px;
+    display: inline;
+}
+#div_6{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 330%;
+    font-size: 30px;
+    color: aliceblue;
+    left: 6%;
+}
+#div_7{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 350%;
+    left: 6%;
+    font-size: 90px;
+    color: aliceblue;
+}
+#div_7_h3{
+    color: rgb(68, 67, 67);
+}
+.divcon{
+    width: 88%;
+    height: fit-content;
+    position: absolute;
+    top: 420%;
+    left: 6%;
+    font-size: 40px;
+    padding: 2%;
+    margin-bottom: 3%;
+    color: aliceblue;
+    border-top: 1px solid white;
+
+}
+#list2{
+    margin-top: 8.1%;
+}
+#list3{
+    margin-top: 16.15%;
+}
+#list4{
+    margin-top: 24.2%;
+}
+#list5{
+    margin-top: 32.25%;
+}
+#list6{
+    margin-top: 40.31%;
+}
+#list7{
+    margin-top: 48.41%;
+}
+#list8{
+    margin-top: 56.49%;
+}
+#list9{
+    margin-top: 64.61%;
+}
+#div_13{
+    width: 100%;
+    height: 300px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    position: absolute;
+    top:590%;
+}
+.fot_div{
+    width: 22%;
+    height: 100%;
+    position: relative;
+    float: left;
+    margin-left: 2%;
+}
+#foot_img{
+    width: 40px;
+    position: relative;
+    top: 40px;
+    left: 5%;
+}
+#para{
+    position: relative;
+    top: 50px;
+    left: 4%;
+    color: aliceblue;
+}
+.h3_c{
+    color: aliceblue;
+    position: relative;
+    top: 20px;
+    left: 15%;
+}
+.a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    position: relative;
+    top: 15%;
+    left: 15%;
+    margin-bottom: 4%;
+}
+.a:hover{
+    color:rgb(27, 216, 169) ;
+}
+#footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 650%;
+}
+#footer_pre{
+    font-size: 15px;
+    color:white;
+    text-align: center;
+}

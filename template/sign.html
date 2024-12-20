@@ -1,0 +1,56 @@
+{% extends 'main.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/signin.css' %}">
+{% endblock css %}
+
+{% block body %}
+<div id="main_div">
+    <h1 id="heading">Sign In</h1>
+    <span id="phone_span" class="span" >Phone</span>
+    <span id="email_span" class="span" ><button onclick="email()">Email</button></span>
+    <div id="phone_div">
+        <div id="number">
+            <label for="phone_number" id="lab">Mobile Number*</label>
+            <br>
+            <input type="text" name="number" id="phone_number" placeholder="enter your mobile number" >
+        </div>
+        <div id="dash">
+            ......................................Or......................................
+        </div>
+        <div id="butt">
+            <img src="{% static 'download.svg' %}" alt="" id="google">
+            <button id="btn1">Continue with Google</button>
+        </div>
+        <div id="create_div">
+            <img src="{% static 'create.png' %}" alt="" id="create_img">
+            <button id="btn2">Create a New Account</button>
+        </div>
+    </div>
+    <div id="email_div">
+        <div id="email">
+            <label for="email_input">Email address</label>
+            <br>
+            <input type="text" name="email" id="email_input" placeholder="enter email address">
+        </div>
+        <div id="password">
+            <label for="pass">Password</label>
+            <br>
+            <input type="password" name="Password" id="pass" placeholder="enter the password">
+        </div>
+        <div id="continue">Continue</div>
+        <div id="dassh">
+            .............................................Or..............................................
+        </div>
+        <div id="buttt">
+            <img src="{% static 'download.svg' %}" alt="" id="gogle">
+            <button id="bt1">Continue with Google</button>
+        </div>
+        <div id="creat_div">
+            <img src="{% static 'create.png' %}" alt="" id="crate_img">
+            <button id="bt2">Create a New Account</button>
+        </div>
+    </div>
+</div>
+{% endblock body %}
