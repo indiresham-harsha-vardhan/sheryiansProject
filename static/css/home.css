@@ -139,6 +139,14 @@ pre{
     top: 260%;
     left: 100px;
 }
+#card_flex{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(236, 138, 18);
+    position: absolute;
+    top: 20%;
+   
+}
 #div_9,#div_10,#div_11{
     width: 350px;
     height: 500px;
