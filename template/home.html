@@ -43,45 +43,21 @@
     Courses Offered 
 </div>
 <div id="card_flex">
+    {% for i in data %}
     <div id="div_9">
         <div id="img_div">
-            <img src="{% static 'Front-End_Domination__Create_Anything_with_Code-FRONTENDTHUBNAIL_Wf8WqcNJx.webp' %}" alt="" id="img1">
+            <img src="{{ i.img.url }}" alt="" id="img1">
         </div>
         <div id="contant">
-            <h2 id="contant_h2">Front-End Domination:Create Anything with Code</h2>
-            <div id="lang">Hindi</div>
+            <h2 id="contant_h2">{{ i.name }}Create Anything with Code</h2>
+            <div id="lang">{{ i.lang }}</div>
             <h3 id="lim_h5">Limited Time Discount</h3>
-            <div id="price_div">$4999  <strike>$9999</strike></div>
+            <div id="price_div">{{ i.price }}  <strike>$9999</strike></div>
             <div id="offer_div">50% off</div>
             <div id="view_details">View Details</div>
         </div>  
     </div>
-    <div id="div_10">
-        <div id="image_div">
-            <img src="{% static 'undefined-backend_0.5x_Medium_wgHDU-5rPt.webp' %}" alt="" id="image1">
-        </div>
-        <div id="content">
-            <h2 id="cont_h2">Back-End Domination:Create Efficient Back-End</h2>
-            <div id="language">Hindi</div>
-            <h3 id="limed_h5">Limited Time Discount</h3>
-            <div id="priced_div">$4999 <strike>$9999</strike></div>
-            <div id="offers_div">50% off</div>
-            <div id="viewed_details">View Details</div>
-        </div>  
-    </div>
-    <div id="div_11">
-        <div id="i_div">
-            <img src="{% static 'kp.webp' %}" alt="" id="imag1">
-        </div>
-        <div id="contt">
-            <h2 id="cnt_h2">Aptitude & Reasoning for Campus Placements</h2>
-            <div id="lanage">Hindi</div>
-            <h3 id="led_h5">Limited Time Discount</h3>
-            <div id="prid_div">$999 <strike>$1500</strike></div>
-            <div id="offs_div">33% off</div>
-            <div id="vied_details">View Details</div>
-        </div>
-    </div>
+    {% endfor %}
 </div>
 <div id="div_12">
     <h1 id="h1_com">Top <span id="span_com">Companies</span> our student working with</h1>

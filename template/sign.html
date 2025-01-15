@@ -29,18 +29,21 @@
         </div>
     </div>
     <div id="email_div">
-        <div id="email">
-            <label for="email_input">Email address</label>
-            <br>
-            <input type="text" name="email" id="email_input" placeholder="enter email address">
-        </div>
-        <div id="password">
-            <label for="pass">Password</label>
-            <br>
-            <input type="password" name="Password" id="pass" placeholder="enter the password">
-        </div>
-        <div id="continue">Continue</div>
-        <div id="dassh">
+        <form action="" method="POST">
+            {% csrf_token %}
+            <div id="email">
+                <label for="email_input">Email address</label>
+                <br>
+                <input type="text" name="email" id="email_input" placeholder="enter email address">
+            </div>
+            <div id="password">
+                <label for="pass">Password</label>
+                <br>
+                <input type="password" name="Password" id="pass" placeholder="enter the password">
+            </div>
+            <button id="continue">Continue</button>
+            <div id="dassh">
+        </form>
             .............................................Or..............................................
         </div>
         <div id="buttt">
@@ -54,3 +57,7 @@
     </div>
 </div>
 {% endblock body %}
+
+{% block js %}
+<script src="{% static 'js/signss.js' %}" defer></script>
+{% endblock js %}

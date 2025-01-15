@@ -9,18 +9,19 @@
     <div id="text_div">
         <h3 id="h3_heading">Request a Call Back</h3>
         <small id="small_heading">  Fill the form below to request callback from our team</small>
-        <form id="form">
+        <form id="form" method="POST">
+            {% csrf_token %}
             <div class="form-group">
                 <label for="name" class="inputs">Name</label>
                 <input type="text" name="name" id="name" class="inputs1" placeholder="enter name" required>
             </div>
             <div class="form-group">
                 <label for="phone" class="inputs">phone</label>
-                <input type="text" name="phone" id="phone" class="inputs1" placeholder="enter phone no">
+                <input type="number" name="phone" id="phone" class="inputs1" placeholder="enter phone no">
             </div>
             <div class="form-group">
                 <label for="date" class="inputs">Select Date and Time</label>
-                <input type="datetime-local" name="" id="date" class="inputs1">
+                <input type="datetime-local" name="date" id="date" class="inputs1">
             </div>
             <div class="form-group" id="button">
                 <button id="submit_button">submit</button>

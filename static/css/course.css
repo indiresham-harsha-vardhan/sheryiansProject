@@ -34,42 +34,41 @@ body{
     color: azure;
 }
 #div_3{
-    width: 100%;
+    width: 90%;
     height: 500px;
     position: absolute;
     top: 95%;
+    left: 2.5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
-#div_9,#div_10,#div_11{
-    width: 350px;
+#div_9{
+    width: 300px;
     height: 500px;
-    position: absolute;
-    
-    left: 5%;
     border-radius: 5%;
 }
-#img_div,#image_div,#i_div{
+#img_div{
     width: 100%;
     height: 50%;
     border-radius: 5%;
-    position: absolute;
 }
-#img1,#image1,#imag1{
+#img1{
     width: 100%;
     height: 100%;
     border-radius: 5% 5% 0% 0%;
 }
-#contant,#content,#contt{
+#contant{
     width: 100%;
     height: 40%;
-    position: absolute;
     top: 50%;
 }
-#contant_h2,#cont_h2,#cnt_h2{
+#contant_h2{
     margin-left: 5%;
     font-size: 25px;
     color: aliceblue;
 }
-#lang,#language,#lanage{
+#lang{
     width: fit-content;
     height: fit-content;
     background-color: rgb(86, 84, 84);
@@ -78,17 +77,17 @@ body{
     border-radius: 5px;
     margin-left: 5%;
 }
-#lim_h5,#limed_h5,#led_h5{
+#lim_h5{
     color: rgb(27, 216, 169);
     margin-left: 5%;
     margin-top: 8%;
 }
-#price_div,#priced_div,#prid_div{
+#price_div{
     color: aliceblue;
     font-size: 25px;
     margin-left: 25px;
 }
-#offer_div,#offers_div,#offs_div{
+#offer_div{
     width: fit-content;
     height: fit-content;
     background-color: aliceblue;
@@ -97,7 +96,7 @@ body{
     top: -20px;
     border-radius: 5px;
 }
-#view_details,#viewed_details,#vied_details{
+#view_details{
     background-color:rgb(27, 216, 169) ;
     width: 100%;
     height: 20%;
